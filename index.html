@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+	<div id="calculator">
+	  <div class="col-xs-4 col-xs-offset-5">
+	    <div class="outline">
+	      <div id="screen" class="text-right">
+	        <p id="answer">0</p>
+	      </div> <!-- End Screen -->
+	      <div class="keys">
+	        <button class="btn btn-danger" value='C'>C</button>
+	        <button class="btn btn-danger" value='CE'>CE</button>
+	        <button class="btn btn-warning"value='/'>&divide</button>
+	        <button class="btn btn-warning"value='*'>&times</button>
+
+	        <button class="btn btn-default"value='7'>7</button>
+	        <button class="btn btn-default"value='8'>8</button>
+	        <button class="btn btn-default"value='9'>9</button>
+	        <button class="btn btn-warning"value='-'>-</button>
+
+	        <button class="btn btn-default"value='4'>4</button>
+	        <button class="btn btn-default"value='5'>5</button>
+	        <button class="btn btn-default"value='6'>6</button>
+	        <button class="btn btn-warning"value='+'>+</button>
+
+	        <button class="btn btn-default"value='1'>1</button>
+	        <button class="btn btn-default"value='2'>2</button>
+	        <button class="btn btn-default"value='3'>3</button>
+	        <button class="btn btn-success btnEq"value='='>=</button>
+
+	        <button class="btn btn-default btn0"value='0'>0</button>
+	        <button class="btn btn-default"value='.'>.</button>
+
+	      </div> <!-- End Keys --> 
+	    </div> <!-- End Outline -->
+	    
+	    <div class="footer">
+	      <p>Designed & developed by <a href="https://benjaminnath.github.io">Benjamin Nath</a></p>
+	    </div>
+	  </div>
+	</div> <!-- End Calculator -->
+	<script href="calculator.js"></script>
+	<script href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<!--<script href="http://cdnjs.cloudflare.com/ajax/libs/mathjs/2.4.1/math.min.js"></script>-->
+</body>
+</html>
